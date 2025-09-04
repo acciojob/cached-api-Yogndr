@@ -34,7 +34,7 @@ const App = () => {
         <ul style={{ listStyleType: "disc" }}>
           {memoizedPosts.map((post) => (
             <li key={post.id} style={{ marginBottom: "20px" }}>
-              <strong>{post.title}</strong>
+              <h4>{post.title}</h4>
               <p style={{ margin: "5px 0 0 0" }}>{post.body}</p>
             </li>
           ))}
